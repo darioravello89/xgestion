@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="closable" type="boolean" value="true"/>
+    <Property name="iconifiable" type="boolean" value="true"/>
+    <Property name="maximizable" type="boolean" value="true"/>
+    <Property name="title" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="this.titulo" type="code"/>
+    </Property>
+    <Property name="frameIcon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+      <Image iconType="3" name="/com/util/images/favicon.png"/>
+    </Property>
+    <Property name="name" type="java.lang.String" value="" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,4,0,0,3,-25"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="minimumSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[889, 50]"/>
+        </Property>
+        <Property name="opaque" type="boolean" value="true"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="First"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Component id="jLabelEsquina" min="-2" pref="500" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel1" min="-2" pref="370" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="jCheckBox1" min="-2" pref="368" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jButtonNuevo1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="jButtonNuevo" min="-2" pref="253" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jLabelEsquina" min="-2" max="-2" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" pref="60" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jCheckBox1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButtonNuevo" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="jButtonNuevo1" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButtonNuevo">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="67"/>
+            <Property name="text" type="java.lang.String" value="Cargar los datos de mi empresa"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonNuevoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabelEsquina">
+          <Properties>
+            <Property name="horizontalAlignment" type="int" value="2"/>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/util/images/esquina.png"/>
+            </Property>
+            <Property name="horizontalTextPosition" type="int" value="2"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JCheckBox" name="jCheckBox1">
+          <Properties>
+            <Property name="mnemonic" type="int" value="65"/>
+            <Property name="text" type="java.lang.String" value="Acepto los terminos y condiciones"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButtonNuevo1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="14" style="1"/>
+            </Property>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/com/util/images/ico35Llave.png"/>
+            </Property>
+            <Property name="mnemonic" type="int" value="76"/>
+            <Property name="text" type="java.lang.String" value="Introducir Licencia"/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButtonNuevo1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="36" style="1"/>
+            </Property>
+            <Property name="horizontalAlignment" type="int" value="4"/>
+            <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+              <Connection code="this.titulo" type="code"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="java.awt.TextArea" name="textArea1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ESTE SOFTWARE ESTA PROTEGIDO POR LA LEY DE PROPIEDAD INTELECTUAL. &#xa;AL ADQUIRIR EL PRODUCTO USTED HA PAGADO POR LA LICENCIA DE USO PARA UNA COMPUTADORA SEG&#xda;N LO ESTIPULADO POR EL DUE&#xd1;O DEL PRODUCTO.&#xa;&#xa;&#xa;Ley 25.036 - PROPIEDAD INTELECTUAL&#xa;&#xa;ARTICULO 1&#xb0; -Modif&#xed;case el art&#xed;culo 1&#xb0; de la Ley 11.723, el que quedar&#xe1; redactado de la siguiente manera:&#xa;&#xa;Art&#xed;culo 1&#xb0;: A los efectos de la presente ley, las obras cient&#xed;ficas, literarias y art&#xed;sticas comprenden los escritos de toda naturaleza y extensi&#xf3;n, entre ellos los programas de computaci&#xf3;n fuente y objeto; las compilaciones de datos o de otros materiales; las obras dram&#xe1;ticas, composiciones musicales, dram&#xe1;tico-musicales; las cinematogr&#xe1;ficas, coreogr&#xe1;ficas y pantom&#xed;micas; las obras de dibujo, pintura, escultura, arquitectura; modelos y obras de arte o ciencia aplicadas al comercio o a la industria; los impresos, planos y mapas; los pl&#xe1;sticos, fotograf&#xed;as, grabados y fonogramas; en fin, toda producci&#xf3;n cient&#xed;fica, literaria, art&#xed;stica o did&#xe1;ctica, sea cual fuere el procedimiento de reproducci&#xf3;n.&#xa;&#xa;La protecci&#xf3;n del derecho de autor abarcar&#xe1; la expresi&#xf3;n de ideas, procedimientos, m&#xe9;todos de operaci&#xf3;n y conceptos matem&#xe1;ticos pero no esas ideas, procedimientos, m&#xe9;todos y conceptos en s&#xed;.&#xa;&#xa;ARTICULO 2&#xb0; -Incorp&#xf3;rase como inciso d) del art&#xed;culo 4&#xb0; de la ley 11.723 el siguiente texto:&#xa;&#xa;Art&#xed;culo 4&#xb0;:...&#xa;&#xa;d) Las personas f&#xed;sicas o jur&#xed;dicas cuyos dependientes contratados para elaborar un programa de computaci&#xf3;n hubiesen producido un programa de computaci&#xf3;n en el desempe&#xf1;o de sus funciones laborales, salvo estipulaci&#xf3;n en contrario.&#xa;&#xa;ARTICULO 3&#xb0; -Incorp&#xf3;rase como segundo p&#xe1;rrafo del art&#xed;culo 9&#xb0; de la ley 11.723 el siguiente texto:&#xa;&#xa;Art&#xed;culo 9&#xb0;:...&#xa;&#xa;Quien haya recibido de los autores o de sus derecho-habientes de un programa de computaci&#xf3;n una licencia para usarlo, podr&#xe1; reproducir una &#xfa;nica copia de salvaguardia de los ejemplares originales del mismo.&#xa;&#xa;Dicha copia deber&#xe1; estar debidamente identificada, con indicaci&#xf3;n del licenciado que realiz&#xf3; la copia y la fecha de la misma. La copia de salvaguardia no podr&#xe1; ser utilizada para otra finalidad que la de reemplazar el ejemplar original del programa de computaci&#xf3;n licenciado si ese original se pierde o deviene in&#xfa;til para su utilizaci&#xf3;n.&#xa;&#xa;ARTICULO 4&#xb0; -Incorp&#xf3;rase como art&#xed;culo 55 bis de la ley 11.723 el siguiente texto:&#xa;&#xa;Art&#xed;culo 55 bis: La explotaci&#xf3;n de la propiedad intelectual sobre los programas de computaci&#xf3;n incluir&#xe1; entre otras formas los contratos de licencia para su uso o reproducci&#xf3;n.&#xa;&#xa;ARTICULO 5&#xb0; -Incorp&#xf3;rase como art&#xed;culo 57, in fine, de la ley 11.723 el siguiente texto:&#xa;&#xa;Art&#xed;culo 57, in fine: Para los programas de computaci&#xf3;n, consistir&#xe1; el dep&#xf3;sito de los elementos y documentos que determine la reglamentaci&#xf3;n.&#xa;&#xa;"/>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+    </Component>
+  </SubComponents>
+</Form>

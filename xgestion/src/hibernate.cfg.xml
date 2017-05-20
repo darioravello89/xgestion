@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">org.gjt.mm.mysql.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/xgestion2</property>
+    <property name="hibernate.connection.username">G8j3+3VSxTQ=</property>
+    <property name="hibernate.connection.password">OVL7r19m014=</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <property name="hibernate.current_session_context_class">thread</property>
+
+    <mapping class="com.xgestion2.entities.maestros.Cliente"/>
+    <mapping class="com.xgestion2.entities.maestros.Computadora"/>
+    <mapping class="com.xgestion2.entities.maestros.Config"/>
+    <mapping class="com.xgestion2.entities.maestros.Empresa"/>
+    <mapping class="com.xgestion2.entities.maestros.Estado"/>
+    <mapping class="com.xgestion2.entities.maestros.Familia"/>
+    <mapping class="com.xgestion2.entities.maestros.MovimientoCodigo"/>
+    <mapping class="com.xgestion2.entities.maestros.MovimientoTipo"/>
+    <mapping class="com.xgestion2.entities.maestros.Oferta"/>
+    <mapping class="com.xgestion2.entities.maestros.Pago"/>
+    <mapping class="com.xgestion2.entities.maestros.Producto"/>
+    <mapping class="com.xgestion2.entities.maestros.Proveedor"/>
+    <mapping class="com.xgestion2.entities.maestros.Subfamilia"/>
+    <mapping class="com.xgestion2.entities.maestros.Sucursal"/>
+    <mapping class="com.xgestion2.entities.maestros.Turno"/>
+    <mapping class="com.xgestion2.entities.maestros.UME"/>
+    <mapping class="com.xgestion2.entities.maestros.Ubicacion"/>
+    <mapping class="com.xgestion2.entities.maestros.Usuario"/>
+
+    <mapping class="com.xgestion2.entities.transaccionales.Compra"/>
+    <mapping class="com.xgestion2.entities.transaccionales.CompraDetalle"/>
+    <mapping class="com.xgestion2.entities.transaccionales.CuentaCorrienteCliente"/>
+    <mapping class="com.xgestion2.entities.transaccionales.CuentaCorrienteProveedor"/>
+    <mapping class="com.xgestion2.entities.transaccionales.Movimiento"/>
+    <mapping class="com.xgestion2.entities.transaccionales.Venta"/>
+    <mapping class="com.xgestion2.entities.transaccionales.VentaDetalle"/>
+
+  </session-factory>
+</hibernate-configuration>
